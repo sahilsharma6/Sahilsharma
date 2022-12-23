@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css" title="" type="" />
+    <link rel="stylesheet" href="mediaQ.css" title="" type="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!----------------- Header section ----------------------- -->
+    <header id="home">
+
+        <nav class="nav flex">
+    <div class="logo"><strong> sahil sharma</strong></div>
+            <div class="hamMenu" onclick="hamMenu()">
+                <i class="fa-solid fa-bars fa-2x menu"></i>
+                <i class="fa-solid fa-xmark fa-2x close"></i>
+            </div>
+
+            <ul class="navbar flex">
+                <li><a href="#home" class="hover-links">Home</a></li>
+                <li><a href="#service" class="hover-links">Services</a></li>
+                <li><a href="#about" class="hover-links">About</a></li>
+                <!-- <li><a href="#" class="hover-links">Portfolio</a></li> -->
+                <li><a href="#contact" class="hover-links">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="header-content flex">
+            <div class="header-content-left">
+                <p>hlo I____am </p>
+                <h1> <strong> Sahil sharma</strong></h1>
+                <p>Web Develpor-UI/UX designer</p>
+                <a href="tel:+917986177370" class="primary-button header-button">Hire me</a>
+            </div>
+
+            <div class="header-content-right">
+                <img src="unnamed.png" alt="profile" height="100px" width="100px">
+            </div>
+
+        </div>
+    </header>
+    <!-- ------------------------------------------------------->
+
+    <!----------------- Service section ---------------------->
+    <section class="service-section" id="service">
+        <div class="container">
+            <div class="service-section-text section-starter">
+                <h3 class="flex">01 <span>Services</span></h3>
+                <p>we work with you, Not for you</p>
+            </div>
+
+            <div class="service-section-boxes flex">
+                <div class="service-boxes">Web design</div>
+                <div class="service-boxes">product design</div>
+                <div class="service-boxes">ui/ux design</div>
+                <div class="service-boxes">logo design</div>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------- -->
+
+    <!----------------- About section ------------------------->
+    <section class="about-section " id="about">
+        <div class="container">
+            <div class="section-starter">
+                <h3 class="flex">02 <span>About</span></h3>
+                <p>we work with you, Not for you</p>
+            </div>
+<!-- 
+            <div class="about-content-1 flex">
+                <div class="about-content-1-left">
+                    <h3>About Me</h3>
+                    <p>I am Dynamic Creative Web Developer and Designer</p>
+                    <p>From when I started my carrer as a web developer I really enjoy
+                        it very much when I start to write code I love that stuff.
+                        Coding is like whenever we write it always teaches us new stuff.
+                    </p>
+                    <p>I can do work as a freelancer so, I am always ready to get
+                        work. whatever work will be assigned to me I'll give my
+                        100%.
+                    </p>
+                    <p>Sahil Sharma</p>
+                </div>
+
+
+                <img class="about-content-1-right" height="100px" width="100px" src="port.png" alt="my-profile">
+
+            </div> -->
+
+            <div class="about-content-2 flex">
+                <div class="about-content-2-left">
+                    <h3>About Me</h3>
+                    <p><em> I am Dynamic Creative Web Developer and Designer </em></p>
+                    <p>From when I started my carrer as a <em> web developer</em><em>  I </em> really enjoy
+                        it very much when I start to write code I love that stuff.
+                        Coding is like whenever we do it always teaches us new stuff.
+                    </p>
+                    <p>I can do work as a freelancer so, I am always ready to get
+                        work. whatever work will be assigned to me I'll give my
+                        100%.
+                    </p>
+                    <p class="signature" style="font-size:3rem;"><strong>Sahil Sharma</strong> </p>
+                </div>
+
+                <div class="about-content-2-right">
+                    <h3>My Skills</h3>
+                    <p>
+                       <em>  HTML </em>
+                    </p>
+
+                    <div class="pecentage">99%</div>
+                    <div class="line">
+                        <div class="subline1"></div>
+                    </div>
+
+
+                    <p><em> CSS </em> </p>
+                    <div class="pecentage">65%</div>
+                    <div class="line">
+                        <div class="subline2"></div>
+                    </div>
+
+
+                    <p><em> JAVASCRIPT </em> </p>
+                    <div class="pecentage">45%</div>
+                    <div class="line">
+                        <div class="subline3"></div>
+                    </div>
+
+                    <p><em> BOOTSTRAP </em> </p>
+                    <div class="pecentage">75%</div>
+                    <div class="line">
+                        <div class="subline4"></div>
+                    </div>
+
+                    <!-- <p>NODE JS </p>
+                    <div class="pecentage">40%</div>
+                    <div class="line">
+                        <div class="subline4"></div>
+                    </div> -->
+
+                    <h3>Follow me</h3>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-twitter social-icons"></i></a>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-instagram social-icons"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100046325541064"><i class="fa-brands fa-facebook social-icons"></i></a>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-linkedin social-icons"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------->
+
+    <!----------------- Footer section ------------------------->
+    <footer>
+        <div class="container ">
+            <div class="footer-content flex">
+
+                <div class="footer-content-1">
+                    <div class="footer-starter">
+                        <h3 class="flex ">03 <span>Contact</span></h3>
+                        <p>Don't hesitate to Contact with us</p>
+                    </div>
+
+                    <div class="form" id="contact">
+                        <form action="post" name="google-sheet" autocomplete="off">
+                            <input type="text" name="Name" id="" placeholder="Name*" required>
+                            <input type="email" name="Email" id="" placeholder="Email*" required>
+                            <input type="text" name="Phone" id="" placeholder="Phone*" required>
+                            <div>
+                                <textarea name="Description" id="" cols="70" rows="15"
+                                    placeholder="Tell us something..... "></textarea>
+                            </div>
+                            <input type="submit" class="primary-button header-button" value="Send">
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-content-2 flex">
+                    <div class="footer-content-2-left">
+                        <h3>Quick links</h3>
+                        <ul class="navbar">
+                            <li><a href="#home" class="hover-links">Home</a></li>
+                            <li><a href="#service" class="hover-links">Services</a></li>
+                            <li><a href="#about" class="hover-links">About</a></li>
+                            <!-- <li><a href="#" class="hover-links">Portfolio</a></li> -->
+                            <li><a href="#contact" class="hover-links">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-content-2-right">
+
+                        <a href="mailto:sahilsharma86600@gmail.com">
+                        <i class="fa-solid fa-envelope social-icons"></i>
+                        <p>sahilsharma86600@gmail.com</p>
+                    </a>
+
+                        <a href="tel:+917986177370">
+                        <i class="fa-solid fa-phone social-icons"></i>
+                        <p>+91-7986177370</p>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ------------------------------------------------------->
+
+</body>
+<script src="Portfolio.js"></script>
+
+</html>
