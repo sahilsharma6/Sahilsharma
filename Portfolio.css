@@ -14,6 +14,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
