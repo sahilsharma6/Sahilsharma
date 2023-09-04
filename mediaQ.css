@@ -29,20 +29,19 @@
          position: absolute;
          top: -1000%;
          /* top: 0; */
-         left: 50%;
-         transform: translateX(-50%);
+         /* left: 100%; */
+         /* transform: translateX(-50%); */
          background-color:var(--main);
          color: #00203FFF;
          width: 100%;
          z-index: 1;
-         transition: 0.5s linear;
      }
      header .navbar li .hover-links:hover{
          color: var(--primary);   
      
      }
          
-     header .nav .active{
+     header .nav .navbar.active{
             top: 0;
      }
  }
