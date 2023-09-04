@@ -245,6 +245,7 @@ header .navbar li .hover-links:hover {
     text-align: center;
     transition: 0.2s linear;
     border-radius: .2rem;
+    cursor: pointer;
 }
 
 .service-section-boxes .service-boxes:hover {
