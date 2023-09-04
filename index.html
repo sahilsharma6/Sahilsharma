@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
 </head>
 
@@ -16,14 +18,14 @@
     <!----------------- Header section ----------------------- -->
     <header id="home">
 
-        <nav class="nav flex">
-    <div class="logo"><strong> sahil sharma</strong></div>
-            <div class="hamMenu" onclick="hamMenu()">
+        <nav class="nav flex" >
+            <div class="logo" data-aos="fade-right"><strong> sahil sharma</strong></div>
+            <div class="hamMenu" onclick="hamMenu()" data-aos="fade-left">
                 <i class="fa-solid fa-bars fa-2x menu"></i>
                 <i class="fa-solid fa-xmark fa-2x close"></i>
             </div>
 
-            <ul class="navbar flex">
+            <ul class="navbar flex" data-aos="fade-left">
                 <li><a href="#home" class="hover-links">Home</a></li>
                 <li><a href="#service" class="hover-links">Services</a></li>
                 <li><a href="#about" class="hover-links">About</a></li>
@@ -34,14 +36,14 @@
         </nav>
 
         <div class="header-content flex">
-            <div class="header-content-left">
+            <div class="header-content-left" data-aos="fade-right">
                 <p>hlo I____am </p>
                 <h1> <strong> Sahil sharma</strong></h1>
                 <p>Web Develpor-UI/UX designer</p>
                 <a href="tel:+917986177370" class="primary-button header-button">Hire me</a>
             </div>
 
-            <div class="header-content-right">
+            <div class="header-content-right" data-aos="fade-left">
                 <img src="portfolio.jpg" alt="profile" height="100px" width="100px">
             </div>
 
@@ -53,15 +55,15 @@
     <section class="service-section" id="service">
         <div class="container">
             <div class="service-section-text section-starter">
-                <h3 class="flex">01 <span>Services</span></h3>
-                <p>we work with you, Not for you</p>
+                <h3 class="flex" data-aos="fade-down">01 <span>Services</span></h3>
+                <p data-aos="fade-up">we work with you, Not for you</p>
             </div>
 
             <div class="service-section-boxes flex">
-                <div class="service-boxes">Web design</div>
-                <div class="service-boxes">product design</div>
-                <div class="service-boxes">ui/ux design</div>
-                <div class="service-boxes">logo design</div>
+                <div class="service-boxes" data-aos="fade-right">Web design</div>
+                <div class="service-boxes" data-aos="fade-left">product design</div>
+                <div class="service-boxes" data-aos="fade-right">ui/ux design</div>
+                <div class="service-boxes" data-aos="fade-left">logo design</div>
             </div>
         </div>
     </section>
@@ -71,10 +73,10 @@
     <section class="about-section " id="about">
         <div class="container">
             <div class="section-starter">
-                <h3 class="flex">02 <span>About</span></h3>
-                <p>we work with you, Not for you</p>
+                <h3 class="flex" data-aos="fade-down">02 <span>About</span></h3>
+                <p data-aos="fade-up">we work with you, Not for you</p>
             </div>
-<!-- 
+            <!-- 
             <div class="about-content-1 flex">
                 <div class="about-content-1-left">
                     <h3>About Me</h3>
@@ -96,10 +98,10 @@
             </div> -->
 
             <div class="about-content-2 flex">
-                <div class="about-content-2-left">
+                <div class="about-content-2-left " data-aos="fade-right">
                     <h3>About Me</h3>
-                    <p><em> I am Dynamic Creative Web Developer and Designer </em></p>
-                    <p>From when I started my carrer as a <em> web developer</em><em>  I </em> really enjoy
+                    <p> <em> I am Dynamic Creative Web Developer and Designer </em></p>
+                    <p>From when I started my carrer as a <em> web developer</em><em> I </em> really enjoy
                         it very much when I start to write code I love that stuff.
                         Coding is like whenever we do it always teaches us new stuff.
                     </p>
@@ -110,10 +112,10 @@
                     <p class="signature" style="font-size:3rem;"><strong>Sahil Sharma</strong> </p>
                 </div>
 
-                <div class="about-content-2-right">
+                <div class="about-content-2-right" data-aos="fade-left">
                     <h3>My Skills</h3>
                     <p>
-                       <em>  HTML </em>
+                        <em> HTML </em>
                     </p>
 
                     <div class="pecentage">99%</div>
@@ -148,12 +150,16 @@
                     </div> -->
 
                     <h3>Follow me</h3>
-                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-twitter social-icons"></i></a>
-                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-instagram social-icons"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100046325541064"><i class="fa-brands fa-facebook social-icons"></i></a>
-                    <a href="https://www.instagram.com/sahilsharma_6026/"><i class="fa-brands fa-linkedin social-icons"></i></a>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i
+                            class="fa-brands fa-twitter social-icons"></i></a>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i
+                            class="fa-brands fa-instagram social-icons"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100046325541064"><i
+                            class="fa-brands fa-facebook social-icons"></i></a>
+                    <a href="https://www.instagram.com/sahilsharma_6026/"><i
+                            class="fa-brands fa-linkedin social-icons"></i></a>
+                </div>
             </div>
-        </div>
     </section>
     <!-- ------------------------------------------------------->
 
@@ -162,7 +168,7 @@
         <div class="container ">
             <div class="footer-content flex">
 
-                <div class="footer-content-1">
+                <div data-aos="fade-right" class="footer-content-1">
                     <div class="footer-starter">
                         <h3 class="flex ">03 <span>Contact</span></h3>
                         <p>Don't hesitate to Contact with us</p>
@@ -183,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="footer-content-2 flex">
+                <div data-aos="fade-left" class="footer-content-2 flex">
                     <div class="footer-content-2-left">
                         <h3>Quick links</h3>
                         <ul class="navbar">
@@ -198,13 +204,13 @@
                     <div class="footer-content-2-right">
 
                         <a href="mailto:sahilsharma86600@gmail.com">
-                        <i class="fa-solid fa-envelope social-icons"></i>
-                        <p>sahilsharma86600@gmail.com</p>
-                    </a>
+                            <i class="fa-solid fa-envelope social-icons"></i>
+                            <p>sahilsharma86600@gmail.com</p>
+                        </a>
 
                         <a href="tel:+917986177370">
-                        <i class="fa-solid fa-phone social-icons"></i>
-                        <p>+91-7986177370</p>
+                            <i class="fa-solid fa-phone social-icons"></i>
+                            <p>+91-7986177370</p>
                         </a>
                     </div>
 
@@ -216,10 +222,20 @@
     <!-- ------------------------------------------------------->
 
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8673;</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" >&#8673;</button>
+
+
+    <script src="Portfolio.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 180,
+            duration: 1000,
+        });
+    </script>
 
 
 </body>
-<script src="Portfolio.js"></script>
 
 </html>
